@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bottom_sheet_background"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="50dp"
+            android:background="@drawable/card"
+            android:backgroundTint="#8D8DFF"
+            android:layout_height="8dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:src="@drawable/th"
+                android:layout_margin="20dp"
+                android:text="Instagram"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/card"
+            android:elevation="3dp"
+            android:orientation="vertical"
+            android:layout_margin="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MyISFIC"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:textColor="@color/black"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="v1.0.1"
+                    android:layout_margin="4dp"
+                    android:gravity="center"
+                    android:padding="1dp"
+                    android:textSize="16sp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:text="@string/cdt"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blue"
+                        android:text="@string/mdt"/>
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    android:textAlignment="center"
+                    android:text="@string/boulkassoumbougou_1726_rue_481_porte_21_bamako_00223_76_78_83_83_66_43_50_50_tablissement_d_enseignement_sup_rieur"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+
+                    <TextView
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray"
+                        android:id="@+id/call_num_orange"
+                        android:gravity="end"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/orange"/>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:gravity="start"
+                        android:layout_margin="8dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/gray"
+                        android:id="@+id/call_num_malitel"
+                        android:text="@string/malitel"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/blue"
+                    android:id="@+id/adress_email"
+                    android:textAlignment="center"
+                    android:text="isficb@gmail.com"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:padding="16dp"
+                    android:textSize="12sp"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:text="@string/copy"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

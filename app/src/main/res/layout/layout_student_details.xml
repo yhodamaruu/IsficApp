@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/date_naiss"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de naissance" />
+
+    <TextView
+        android:id="@+id/annee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Année" />
+
+    <TextView
+        android:id="@+id/num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numéro" />
+
+    <TextView
+        android:id="@+id/tel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Téléphone" />
+
+    <TextView
+        android:id="@+id/sexe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sexe" />
+
+    <TextView
+        android:id="@+id/id_el"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID Élève" />
+
+    <TextView
+        android:id="@+id/nationnalite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nationalité" />
+</LinearLayout>

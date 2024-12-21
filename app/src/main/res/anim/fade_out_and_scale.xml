@@ -1,0 +1,16 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Rétrécir progressivement et fade out -->
+    <scale
+        android:fromXScale="1"
+        android:fromYScale="1"
+        android:toXScale="0.5"
+        android:toYScale="0.5"
+        android:duration="300"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+
+    <alpha
+        android:fromAlpha="1"
+        android:toAlpha="0"
+        android:duration="300"
+        android:interpolator="@android:anim/accelerate_decelerate_interpolator"/>
+</set>

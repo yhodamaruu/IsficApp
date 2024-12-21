@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "788883598459",
+    "firebase_url": "https://isfic-2b45c-default-rtdb.firebaseio.com",
+    "project_id": "isfic-2b45c",
+    "storage_bucket": "isfic-2b45c.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:788883598459:android:3fd042e247dbf53e0706de",
+        "android_client_info": {
+          "package_name": "com.isficuniversity.isfic"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjEar_ff-9hSsUVGM-SSkSBy80cpetik8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,29 @@
+<!-- card_article.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/card"
+    android:layout_margin="5dp"
+    android:padding="8dp"
+    android:gravity="center"
+    android:clipToPadding="false">
+
+    <!-- Image de l'article -->
+    <ImageView
+        android:id="@+id/articleImage"
+        android:layout_width="140dp"
+        android:layout_height="90dp"
+        android:scaleType="centerCrop"
+        android:layout_marginBottom="10dp"/>
+
+    <!-- Titre de l'article -->
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:textColor="#000" />
+
+</LinearLayout>

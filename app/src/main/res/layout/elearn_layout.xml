@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/blue">
+
+        <SearchView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:background="@drawable/corned_texfiled"
+            android:layout_margin="12dp"/>
+
+
+    </LinearLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Les plus pertinent"
+                android:drawableEnd="@drawable/baseline_star_24"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="12dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/card"
+                        android:elevation="2dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:src="@color/red"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:text="Lorem del Economia"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Commencer"
+                            android:layout_margin="8dp"
+                            android:layout_gravity="start"
+                            android:drawableTint="@color/white"
+                            android:drawableEnd="@drawable/baseline_play_circle_outline_24"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/card"
+                        android:elevation="2dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:src="@color/green"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:text="Lorem del Economia"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Commencer"
+                            android:layout_margin="8dp"
+                            android:layout_gravity="start"
+                            android:drawableTint="@color/white"
+                            android:drawableEnd="@drawable/baseline_play_circle_outline_24"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/card"
+                        android:elevation="2dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:src="@color/purple"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:text="Lorem del Economia"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Commencer"
+                            android:layout_margin="8dp"
+                            android:layout_gravity="start"
+                            android:drawableTint="@color/white"
+                            android:drawableEnd="@drawable/baseline_play_circle_outline_24"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Par les étudiants ISFIC"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:padding="12dp"/>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:scrollbars="none"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/card"
+                        android:elevation="2dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:src="@color/yellow"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:text="Lorem del Economia"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Commencer"
+                            android:layout_margin="8dp"
+                            android:layout_gravity="start"
+                            android:drawableTint="@color/white"
+                            android:drawableEnd="@drawable/baseline_play_circle_outline_24"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/card"
+                        android:elevation="2dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:src="@color/orange"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:text="Lorem del Economia"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Commencer"
+                            android:layout_margin="8dp"
+                            android:layout_gravity="start"
+                            android:drawableTint="@color/white"
+                            android:drawableEnd="@drawable/baseline_play_circle_outline_24"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="230dp"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/card"
+                        android:elevation="2dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="100dp"
+                            android:layout_margin="8dp"
+                            android:src="@color/blue"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="8dp"
+                            android:textStyle="bold"
+                            android:textSize="18sp"
+                            android:text="Lorem del Economia"/>
+                        <Button
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Commencer"
+                            android:layout_margin="8dp"
+                            android:layout_gravity="start"
+                            android:drawableTint="@color/white"
+                            android:drawableEnd="@drawable/baseline_play_circle_outline_24"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

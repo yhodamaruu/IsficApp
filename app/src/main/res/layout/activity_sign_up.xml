@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SIgnUpActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/round_arrow_back_24"
+            app:tint="@color/black"
+            android:layout_margin="4dp"
+            android:background="?attr/selectableItemBackgroundBorderless"/>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:textAlignment="center"
+                        android:text="Créer un Compte ISFIC"
+                        android:textSize="25sp"
+                        android:padding="12dp"
+                        android:textColor="@color/blue"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_margin="12dp"
+                        android:padding="8dp"
+                        android:drawablePadding="4dp"
+                        android:drawableStart="@drawable/baseline_email_24"
+                        android:drawableTint="@color/blue"
+                        android:textColorHint="@color/gray"
+                        android:background="@drawable/rounded_textfield_background"
+                        android:inputType="textEmailAddress"
+                        android:textColor="@color/blue"
+                        android:hint="Adresse Email Scolaire"/>
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_margin="12dp"
+                        android:padding="8dp"
+                        android:drawablePadding="4dp"
+                        android:drawableStart="@drawable/round_lock_black"
+                        android:drawableTint="@color/blue"
+                        android:textColorHint="@color/gray"
+                        android:background="@drawable/rounded_textfield_background"
+                        android:inputType="textPassword"
+                        android:textColor="@color/blue"
+                        android:hint="Mot de passe"/>
+
+                         <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:layout_margin="12dp"
+                        android:padding="8dp"
+                        android:drawablePadding="4dp"
+                        android:drawableStart="@drawable/round_lock_black"
+                        android:drawableTint="@color/blue"
+                        android:textColorHint="@color/gray"
+                        android:background="@drawable/rounded_textfield_background"
+                        android:inputType="textPassword"
+                        android:textColor="@color/blue"
+                        android:hint="Réprendre le Mot de passe"/>
+
+
+
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/loginbtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:clickable="true"
+                    android:background="@drawable/btn_background_from"
+                    android:text="Créer un Compte"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_margin="12dp"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:gravity="end|center"
+                        android:text="Besoin d'aide ? " />
+
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:textStyle="bold"
+                        android:textColor="@color/blue"
+                        android:gravity="start|center"
+                        android:text="Obtenir de l'aide " />
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
