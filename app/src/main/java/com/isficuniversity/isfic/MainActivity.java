@@ -609,7 +609,7 @@ public class MainActivity extends AppCompatActivity {
 
         } else if (command.contains("quel est ton nom") || command.contains("ton nom")|| command.contains("c'est quoi ton nom")) {
             speak("Je suis ISFICIA");
-        } else if (command.contains("fais-moi rire") ||
+        } else if (command.contains("fais-moi rire")  ||
                 command.contains("une blague") ||
                 command.contains("raconte une blague") ||
                 command.contains("dis-moi une blague") ||
